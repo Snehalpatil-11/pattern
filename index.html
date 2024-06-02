@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pattern print</title>
+
+
+<style>
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f9faf9ea;
+  border-color: rgb(15, 15, 15);
+  margin: left 50vh;
+}
+.container {
+  width:1540px;
+  transition-property: 50px;
+  position: relative;
+  margin-top: 10vh;
+  margin: auto;
+}
+.row {
+  height: 100px;
+  display: flex;
+
+}
+.img{
+
+  height: 2px;
+  width: 2px;
+}
+
+.row:nth-child(odd) .col:nth-child(odd){
+  background-color:rgb(76, 111, 151);
+
+}
+
+.row:nth-child(even) .col:nth-child(even){
+  background-color: rgb(76, 111, 151);
+}
+
+
+.col {
+  height:100%;
+  width: 100px;
+}
+tr:nth-child(even) {
+  background-color: #111010;
+  animation: evenRowAnimation 1s ease-in-out infinite alternate;
+}
+
+tr:nth-child(odd) {
+  background-color: #e9f1ef;
+  animation: oddRowAnimation 1s ease-in-out infinite alternate;
+} 
+
+tr td:nth-child(even) {
+  color: #3498db;
+  animation: evenColumnAnimation 1s ease-in-out infinite alternate;
+}
+
+tr td:nth-child(odd) {
+  color: #e74c3c;
+  animation: oddColumnAnimation 1s ease-in-out infinite alternate;
+}
+
+
+
+body {
+
+font-family: 'Courier New', Courier, monospace;
+background-color: #f9faf9ea;
+border-color: rgb(15, 15, 15);
+margin: left 50vh;
+}
+
+
+.container {
+width:1540px;
+transition-property: 50px;
+position: relative;
+margin-top: 10vh;
+margin: auto;
+}
+.row {
+height: 100px;
+display: flex;
+
+}
+.img{
+
+height: 2px;
+width: 2px;
+}
+
+
+/* .row:nth-child(even) .col:nth-child(even)
+{
+background-color: rgb(76, 111, 151);
+} */
+/* .col {
+border: 1px solid rgb(110, 110, 110);
+height:100%;
+width: 100px;
+} */
+  
+
+tr td:nth-child(even) {
+color: #3498db;
+animation: evenColumnAnimation 1s ease-in-out infinite alternate;
+}
+
+/* tr td:nth-child(odd) {
+color: #e74c3c;
+animation: oddColumnAnimation 1s ease-in-out infinite alternate;
+} */
+
+.row:nth-child(even) {
+      background-color: #f7f1f1;
+      animation: evenRowAnimation 1s ease-in-out infinite alternate;
+    }
+
+    .row:nth-child(odd) {
+      background-color: #eaeeee;
+      animation: oddRowAnimation 1s ease-in-out infinite alternate;
+    }
+
+@keyframes evenRowAnimation {
+        
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-97px); }
+      }
+  
+       @keyframes oddRowAnimation {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(110px); }
+      }
+
+
+
+</style>
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div> 
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div>
+      <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+      <div class="col"></div> 
+        
+    </div>
+    
+    <div class="row">
+        
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+    </div>
+    
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        
+    </div>
+    
+    <div class="row">
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+   
+    </div>
+    
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        
+    </div>
+    
+    <div class="row">
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+   
+    </div>
+    
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        
+    </div>
+    
+    <div class="row">
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div>
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+        <div class="col"></div> 
+        <div class="col"><img src="blue_dot.png" alt="Image" style="height: 10px; width: 10px; margin-top: 45px; margin-left:45px;"></div>
+   
+
+
+      </div>
+      
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>
